@@ -294,7 +294,7 @@ textarea {
     width: 98%;
 }
  
-/* Links */
+/* Links 
 a {
     color: royalblue;
 }
@@ -305,7 +305,8 @@ a:hover,
 a:focus,
 a:active {
     color: midnightblue;
-}
+}*/
+
 /* Alignment */
 .alignleft {
     display: inline;
@@ -516,6 +517,24 @@ object {
     float: right;
     text-align: right;
     width: 50%;
+}
+
+nav li.page_item {
+	display: inline;
+	padding: 0 1%;
+}
+
+nav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #34B77E;
+	font-family: Arial, sans-serif; /* Not the right font? Compare the G's */
+	font-size: 1.1em; /* TODO change to rem */
+	font-weight: bold;
+}
+
+nav li.current_page_item a {
+	color: #303030;
 }
  
 /* =Comments
