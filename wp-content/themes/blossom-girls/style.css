@@ -336,6 +336,11 @@ a:active {
 /* =Header
 ----------------------------------------------- */
 
+.social-media-icons {
+	margin-left: 1.5%;
+	margin-top: 1.5%;
+}
+
 .site-title {
 	width: 40%;
 }
