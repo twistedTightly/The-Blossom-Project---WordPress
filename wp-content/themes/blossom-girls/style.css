@@ -275,9 +275,10 @@ input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly i
 input[type=text],
 input[type=email],
 textarea {
-    color: #666;
+	border: none;
+    /*color: #666;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 3px;*/
 }
 input[type=text]:focus,
 input[type=email]:focus,
@@ -449,6 +450,14 @@ a:active {
 .archive .format-aside .entry-title {
     display: none;
 }
+
+#search {
+	width: 20%;
+	margin-right: 1.5%; /* Equal to padding of social media icons */
+	margin-bottom: 0px;
+	padding: 35px 10px 10px;
+	background-color: rgba(255, 249, 223, 0.34);
+}
  
 /* =Media
 ----------------------------------------------- */
@@ -556,4 +565,8 @@ object {
 /* Search widget */
 #searchsubmit {
     display: none;
+}
+
+#searchform {
+	background-color: #FFF9DF;
 }
