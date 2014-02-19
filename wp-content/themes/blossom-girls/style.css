@@ -295,7 +295,7 @@ textarea {
     width: 98%;
 }
  
-/* Links 
+/* Links */
 a {
     color: royalblue;
 }
@@ -306,7 +306,7 @@ a:hover,
 a:focus,
 a:active {
     color: midnightblue;
-}*/
+}
 
 /* Alignment */
 .alignleft {
