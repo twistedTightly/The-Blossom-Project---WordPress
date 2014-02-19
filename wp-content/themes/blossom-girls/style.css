@@ -332,6 +332,20 @@ a:active {
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute !important;
 }
+
+/* =Header
+----------------------------------------------- */
+
+.site-title {
+	width: 40%;
+}
+
+.site-description {
+	text-align: center;
+	padding-bottom: 40px;
+	color: #dbce48;
+	/* TODO Bombshell font here */
+}
  
 /* =Menu
 ----------------------------------------------- */
