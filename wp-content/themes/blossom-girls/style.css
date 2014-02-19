@@ -349,10 +349,11 @@ a:active {
     margin: 0;
     background-color: #FFF9DF;
 	padding: 7px;
+	text-align: center;
 }
 .main-navigation li {
-    float: left;
     position: relative;
+    display: inline-block;
 	padding: 0 1%;
 }
 .main-navigation a {
@@ -400,6 +401,7 @@ a:active {
 }
 
 .main-navigation .menu {
+	text-align: center;
 	border-top: 4px solid #DBCE48;
 	border-bottom: 4px solid #DBCE48;
 	padding: 5px 0;
