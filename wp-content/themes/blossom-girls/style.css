@@ -12,6 +12,21 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+/* =Fonts
+-------------------------------------------------------------- */
+
+@font-face {
+font-family: Raleway;
+src: url(./fonts/Raleway/raleway-regular-webfont.eot);
+src: local('Raleway'), local('Raleway'), url(./fonts/Raleway/Raleway-Regular.otf) format('opentype');
+}
+
+@font-face {
+font-family: Bombshell;
+src: url(./fonts/Bombshell/bombshellpro-webfont.eot);
+src: local('Bombshell'), local('Bombshell'), url(./fonts/Bombshell/Bombshellpro.otf) format('opentype');
+}
+
 /* =Reset
 -------------------------------------------------------------- */
  
@@ -347,9 +362,10 @@ a:active {
 
 .site-description {
 	text-align: center;
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 	color: #dbce48;
-	/* TODO Bombshell font here */
+	font-family: Bombshell, serif;
+    font-size: 280%;
 }
 
 /* =Footer
@@ -358,6 +374,7 @@ a:active {
 .site-info {
     text-align: center;
     font-size: 80%;
+    font-family: Raleway, Arial, sans-serif;
 }
 
 .site-footer {
