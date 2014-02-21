@@ -54,9 +54,9 @@
 		    <header id="masthead" class="site-header" role="banner">
 
 		    	<div class="social-media-icons alignleft">
-					<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/social-media-icons/facebook_icon_RESIZED_small.png" alt="Go to Facebook">
-					<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/social-media-icons/twitter_circle_color-512_cream_small.png" alt="Go to Twitter">
-					<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/social-media-icons/pinterest_Cream_small.png" alt="Go to Pinterest">
+					<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/social-media-icons/facebook_FINAL.png" alt="Go to Facebook">
+					<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/social-media-icons/twitter_FINAL.png" alt="Go to Twitter">
+					<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/social-media-icons/pinterest_FINAL.png" alt="Go to Pinterest">
 				</div>
 
 				<aside id="search" class="widget widget_search alignright">
