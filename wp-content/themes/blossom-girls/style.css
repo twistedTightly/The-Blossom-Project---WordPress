@@ -383,6 +383,8 @@ a:active {
     background-color: #34b77e;
     padding: 10px;
 }
+
+/* Footer Menu - see end of Menu section */
  
 /* =Menu
 ----------------------------------------------- */
@@ -396,19 +398,19 @@ a:active {
 	margin: 15px 0;
 	padding: 10px 0;
 }
-.main-navigation ul {
+.main-navigation ul, .footer-navigation ul {
     list-style: none;
     margin: 0;
     background-color: #FFF9DF;
 	padding: 7px;
 	text-align: center;
 }
-.main-navigation li {
+.main-navigation li, .footer-navigation li {
     position: relative;
     display: inline-block;
 	padding: 0 1%;
 }
-.main-navigation a {
+.main-navigation a, .footer-navigation a {
     display: block;
     text-decoration: none;
 	text-transform: uppercase;
@@ -437,7 +439,7 @@ a:active {
 }
 .main-navigation ul ul li {
 }
-.main-navigation li:hover > a {
+.main-navigation, .footer-navigation li:hover > a {
 	color: #C6C6C6;
 }
 .main-navigation ul ul :hover > a {
@@ -457,6 +459,20 @@ a:active {
 	border-top: 4px solid #DBCE48;
 	border-bottom: 4px solid #DBCE48;
 	padding: 5px 0;
+}
+
+/* Footer menu */
+.footer-navigation ul {
+    padding: 25px 0;
+    font-size: 90%;
+    background-color: #34b77e;
+}
+.footer-navigation a {
+    font-weight: normal;
+    color: #303030;
+}
+.footer-navigation li {
+    padding: 0 3%;
 }
  
 /* Small menu */
