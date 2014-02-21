@@ -3,6 +3,9 @@
 * The template for displaying the footer.
 *
 * Contains the closing of the id=main div and all content after
+* 
+*       <!--a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'BlossomGirls' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'BlossomGirls' ), 'WordPress' ); ?></a>
+*       <span class="sep"> | </span-->
 *
 * @package BlossomGirls
 * @since BlossomGirls 1.0
@@ -14,9 +17,7 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="site-info">
         <?php do_action( 'BlossomGirls_credits' ); ?>
-        <a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'BlossomGirls' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'BlossomGirls' ), 'WordPress' ); ?></a>
-        <span class="sep"> | </span>
-        <?php printf( __( 'Theme: %1$s by %2$s.', 'BlossomGirls' ), 'BlossomGirls', '<a href="http://themeBlossomGirlsr.com/" rel="designer">ThemeBlossomGirlsr</a>' ); ?>
+        <?php printf( __( '&copy; 2014 %1$s', 'Blossom Girls' ), 'Blossom Girls Inc.'); ?>
     </div><!-- .site-info -->
 </footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
