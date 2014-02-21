@@ -351,6 +351,19 @@ a:active {
 	color: #dbce48;
 	/* TODO Bombshell font here */
 }
+
+/* =Footer
+----------------------------------------------- */
+
+.site-info {
+    text-align: center;
+    font-size: 80%;
+}
+
+.site-footer {
+    background-color: #34b77e;
+    padding: 10px;
+}
  
 /* =Menu
 ----------------------------------------------- */
