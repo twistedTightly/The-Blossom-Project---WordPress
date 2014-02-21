@@ -15,6 +15,11 @@
 </div><!-- #main .site-main -->
  
 <footer id="colophon" class="site-footer" role="contentinfo">
+	<nav role="navigation" class="site-navigation footer-navigation">
+        <h1 class="assistive-text"><?php _e( 'Menu', 'BlossomGirls' ); ?></h1>
+		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+	</nav><!-- .site-navigation .main-navigation -->
+
     <div class="site-info">
         <?php do_action( 'BlossomGirls_credits' ); ?>
         <?php printf( __( '&copy; 2014 %1$s', 'Blossom Girls' ), 'Blossom Girls Inc.'); ?>
