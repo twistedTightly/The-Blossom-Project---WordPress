@@ -526,6 +526,33 @@ a:active {
     margin: 0 0 1.5em;
 }
  
+
+/* =AboutPage
+----------------------------------------------- */
+
+.about-section-header {
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #CD1E52;
+    font-size: 125%;
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: bold;
+}
+
+article#post-4 .entry-title, article#post-4 #team-header {
+    color: #fff9df;
+    font-family: Bombshell, serif;
+    font-size: 300%;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+
+article#post-4 #team-header {
+    padding-top: 15%;
+}
+
 /* =Asides
 ----------------------------------------------- */
  
