@@ -16,15 +16,31 @@ Use it to make something cool, have fun, and share what you've learned with othe
 -------------------------------------------------------------- */
 
 @font-face {
-font-family: Raleway;
-src: url(./fonts/Raleway/raleway-regular-webfont.eot);
-src: local('Raleway'), local('Raleway'), url(./fonts/Raleway/Raleway-Regular.otf) format('opentype');
+    font-family: 'Raleway';
+    src: url('./fonts/Raleway/raleway-regular-webfont.eot');
+    src: url('./fonts/Raleway/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Raleway/raleway-regular-webfont.woff') format('woff'),
+         url('./fonts/Raleway/raleway-regular-webfont.ttf') format('truetype'),
+         url('./fonts/Raleway/raleway-regular-webfont.svg#ralewayregular') format('svg');
 }
 
 @font-face {
-font-family: Bombshell;
-src: url(./fonts/Bombshell/bombshellpro-webfont.eot);
-src: local('Bombshell'), local('Bombshell'), url(./fonts/Bombshell/Bombshellpro.otf) format('opentype');
+    font-family: 'Raleway';
+    src: url('./fonts/Raleway-bold/raleway-bold-webfont.eot');
+    src: url('./fonts/Raleway-bold/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Raleway-bold/raleway-bold-webfont.woff') format('woff'),
+         url('./fonts/Raleway-bold/raleway-bold-webfont.ttf') format('truetype'),
+         url('./fonts/Raleway-bold/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Bombshell';
+    src: url('./fonts/Bombshell/bombshellpro-webfont.eot');
+    src: url('./fonts/Bombshell/bombshellpro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Bombshell/bombshellpro-webfont.woff') format('woff'),
+         url('./fonts/Bombshell/bombshellpro-webfont.ttf') format('truetype'),
+         url('./fonts/Bombshell/bombshellpro-webfont.svg#bombshell_proregular') format('svg');
 }
 
 /* =Reset
