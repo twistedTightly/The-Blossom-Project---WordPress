@@ -20,12 +20,19 @@ get_header(); ?>
  
                     <?php get_template_part( 'content', 'page' ); ?>
  
-                    <?php comments_template( '', true ); ?>
+ 					<?php if (is_page('About Us')) : ?>
+					<?php else : ?>
+                    	<?php comments_template( '', true ); ?>
+					<?php endif; ?>
  
                 <?php endwhile; // end of the loop. ?>
  
             </div><!-- #content .site-content -->
         </div><!-- #primary .content-area -->
  
-<?php get_sidebar(); ?>
+
+<?php if (is_page('About Us')) : ?>
+<?php else : ?>
+	<?php get_sidebar(); ?>
+<?php endif; ?>
 <?php get_footer(); ?>
