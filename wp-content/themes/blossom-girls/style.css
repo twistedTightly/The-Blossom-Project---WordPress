@@ -358,6 +358,11 @@ a:active {
     display: block;
     margin: 0 auto;
 }
+
+.main-column {
+    margin: auto;
+    max-width: 900px;
+}
  
 /* Text meant only for screen readers */
 .assistive-text {
@@ -516,16 +521,23 @@ a:active {
 .single .byline,
 .group-blog .byline {
     display: inline;
+    max-width: 900px;
+    margin: auto;
 }
 .entry-content,
 .entry-summary {
-    margin: 1.5em 0 0;
+    max-width: 900px;
+    margin: auto;
 }
 .page-links {
     clear: both;
     margin: 0 0 1.5em;
 }
- 
+.entry-title {
+    margin: auto;
+    max-width: 900px;
+}
+
 
 /* =AboutPage
 ----------------------------------------------- */
