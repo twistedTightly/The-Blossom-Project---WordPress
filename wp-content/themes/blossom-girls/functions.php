@@ -59,6 +59,7 @@ function BlossomGirls_setup() {
      */
     register_nav_menus( array(
         'primary' => __( 'Primary Menu', 'BlossomGirls' ),
+        'secondary' => __( 'Secondary Menu', 'BlossomGirls'),
     ) );
 }
 endif; // BlossomGirls_setup

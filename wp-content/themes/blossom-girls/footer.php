@@ -17,7 +17,7 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<nav role="navigation" class="site-navigation footer-navigation">
         <h1 class="assistive-text"><?php _e( 'Menu', 'BlossomGirls' ); ?></h1>
-		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>
 	</nav><!-- .site-navigation .main-navigation -->
 
     <div class="site-info">
