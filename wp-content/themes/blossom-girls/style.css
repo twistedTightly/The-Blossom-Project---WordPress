@@ -553,6 +553,19 @@ article#post-4 #team-header {
     padding-top: 15%;
 }
 
+/* Custom Gallery */
+
+.custom-gallery {
+    margin: auto;
+}
+
+.custom-gallery img.gallery-item {
+    float: left;
+    text-align: center;
+    padding: 0 3px;
+}
+
+
 /* =Asides
 ----------------------------------------------- */
  
