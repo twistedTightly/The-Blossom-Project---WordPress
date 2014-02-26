@@ -419,6 +419,7 @@ a:active {
     background-color: rgba(255, 249, 223, 0.34);
 	margin: 15px 0;
 	padding: 10px 0;
+    font-family: Raleway, Arial, sans-serif;
 }
 .main-navigation ul, .footer-navigation ul {
     list-style: none;
@@ -437,7 +438,6 @@ a:active {
     text-decoration: none;
 	text-transform: uppercase;
 	color: #34B77E;
-	font-family: Arial, sans-serif; /* Not the right font? Compare the G's */
 	font-size: 1.1em; /* TODO change to rem */
 	font-weight: bold;
 }
@@ -487,6 +487,7 @@ a:active {
     padding: 25px 0;
     font-size: 90%;
     background-color: #34b77e;
+    font-family: Raleway, Arial, sans-serif;
 }
 .footer-navigation a {
     font-weight: normal;
