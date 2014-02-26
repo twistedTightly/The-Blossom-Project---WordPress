@@ -403,6 +403,7 @@ a:active {
 .site-footer {
     background-color: #34b77e;
     padding: 10px;
+    clear: both;
 }
 
 /* Footer Menu - see end of Menu section */
@@ -475,11 +476,10 @@ a:active {
 	color: #C6C6C6;
 }
 
-.main-navigation .menu {
-	text-align: center;
-	border-top: 4px solid #DBCE48;
-	border-bottom: 4px solid #DBCE48;
-	padding: 5px 0;
+.main-navigation .menu-main-menu-container {
+    border-top: 4px solid #DBCE48;
+    border-bottom: 4px solid #DBCE48;
+    padding: 5px 0;
 }
 
 /* Footer menu */
