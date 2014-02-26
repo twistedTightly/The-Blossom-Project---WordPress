@@ -570,12 +570,33 @@ article#post-4 #team-header {
 
 .custom-gallery {
     margin: auto;
+    padding-bottom: 3%;
+    text-align: center;
 }
 
-.custom-gallery img.gallery-item {
+.about-gallery img.gallery-item.not-last {
+    margin-right: 33px;
+}
+
+.team-gallery img.gallery-item.not-last, .team-gallery .subtitle.not-last {
+    margin-right: 16px;
+}
+
+/* Team Gallery Subtitles */
+.subtitle.team-name, .subtitle.team-title {
+    text-align: left;
     float: left;
-    text-align: center;
-    padding: 0 3px;
+    width: 200px;
+}
+
+.subtitle.team-name {
+    font-size: 100%;
+    padding-bottom: 0;
+}
+
+.subtitle.team-title {
+    font-size: 90%;
+    padding-bottom: 25%;
 }
 
 /* =Connect
