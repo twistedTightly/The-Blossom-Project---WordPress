@@ -538,11 +538,7 @@ a:active {
     max-width: 900px;
 }
 
-
-/* =AboutPage
------------------------------------------------ */
-
-.about-section-header {
+.section-header {
     padding: 10px 0;
     text-transform: uppercase;
     color: #CD1E52;
@@ -550,6 +546,10 @@ a:active {
     font-family: Raleway, Arial, sans-serif;
     font-weight: bold;
 }
+
+
+/* =AboutPage
+----------------------------------------------- */
 
 article#post-4 .entry-title, article#post-4 #team-header {
     color: #fff9df;
@@ -577,6 +577,14 @@ article#post-4 #team-header {
     padding: 0 3px;
 }
 
+/* =Connect
+----------------------------------------------- */
+.coming-soon-header {
+    color: #dbce48;
+    font-size: 200%;
+    text-align: center;
+    padding: 30px inherit;
+}
 
 /* =Asides
 ----------------------------------------------- */
