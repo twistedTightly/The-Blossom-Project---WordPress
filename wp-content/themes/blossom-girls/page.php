@@ -20,7 +20,7 @@ get_header(); ?>
  
                     <?php get_template_part( 'content', 'page' ); ?>
  
- 					<?php if (is_page('About Us')) : ?>
+ 					<?php if (is_page( array('About Us','Connect','Girl Talk', 'Get Informed') )) : ?>
 					<?php else : ?>
                     	<?php comments_template( '', true ); ?>
 					<?php endif; ?>
@@ -31,7 +31,7 @@ get_header(); ?>
         </div><!-- #primary .content-area -->
  
 
-<?php if (is_page('About Us')) : ?>
+<?php if (is_page( array('About Us', 'Connect') )) : ?>
 <?php else : ?>
 	<?php get_sidebar(); ?>
 <?php endif; ?>
