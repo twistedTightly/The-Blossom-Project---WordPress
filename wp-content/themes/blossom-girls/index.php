@@ -17,7 +17,7 @@
 get_header(); ?>
 
 
-<div id="primary" class="content-area">
+<div id="primary" class="content-area alignleft">
     <div id="content" class="site-content" role="main">
     	<?php if ( have_posts() ) : ?>
 	    	<?php BlossomGirls_content_nav( 'nav-above' ); ?>

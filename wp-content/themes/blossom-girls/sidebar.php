@@ -6,7 +6,11 @@
 * @since BlossomGirls 1.0
 */
 ?>
-<div id="secondary" class="widget-area" role="complementary">
+<?php if (is_page( 'Get Informed' )) : ?>
+    <div id="secondary" class="widget-area alignleft" role="complementary">
+<?php else : ?>
+    <div id="secondary" class="widget-area alignright" role="complementary">
+<?php endif; ?>
     <?php do_action( 'before_sidebar' ); ?>
     <?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
  

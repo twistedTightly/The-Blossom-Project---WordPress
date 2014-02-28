@@ -12,8 +12,14 @@
  */
  
 get_header(); ?>
- 
-        <div id="primary" class="content-area">
+        <?php if (is_page( 'Get Informed' )) : ?>
+            <div id="primary" class="content-area alignright">
+        <?php elseif (is_page( array('About Us', 'Connect') )) : ?>
+            <div id="primary" class="content-area">
+        <?php else : ?>
+            <div id="primary" class="content-area alignleft">
+        <?php endif; ?>
+        <!--div id="primary" class="content-area"-->
             <div id="content" class="site-content" role="main">
  
                 <?php while ( have_posts() ) : the_post(); ?>
