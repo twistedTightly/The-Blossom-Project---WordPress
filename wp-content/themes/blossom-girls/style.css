@@ -772,6 +772,10 @@ object {
 	background-color: #FFF9DF;
 }
 
+.sidebar-widget {
+    padding: 16px 0;
+}
+
 /* Gettin Connected Widget */
 #gettin-connected-wrapper {
     background-image: url('./images/box_graphic_gettin_connected.png');
