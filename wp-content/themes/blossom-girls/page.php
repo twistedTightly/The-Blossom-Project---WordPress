@@ -14,7 +14,7 @@
 get_header(); ?>
         <?php if (is_page( 'Get Informed' )) : ?>
             <div id="primary" class="content-area alignright">
-        <?php elseif (is_page( array('About Us', 'Connect') )) : ?>
+        <?php elseif (is_page( array('About Us', 'Connect', 'Shop', 'Donate') )) : ?>
             <div id="primary" class="content-area">
         <?php else : ?>
             <div id="primary" class="content-area alignleft">
@@ -26,7 +26,7 @@ get_header(); ?>
  
                     <?php get_template_part( 'content', 'page' ); ?>
  
- 					<?php if (is_page( array('About Us','Connect','Girl Talk', 'Get Informed') )) : ?>
+ 					<?php if (is_page( array('About Us','Connect','Girl Talk', 'Get Informed', 'Shop', 'Donate') )) : ?>
 					<?php else : ?>
                     	<?php comments_template( '', true ); ?>
 					<?php endif; ?>
@@ -37,7 +37,7 @@ get_header(); ?>
         </div><!-- #primary .content-area -->
  
 
-<?php if (is_page( array('About Us', 'Connect') )) : ?>
+<?php if (is_page( array('About Us', 'Connect', 'Shop', 'Donate') )) : ?>
 <?php else : ?>
 	<?php get_sidebar(); ?>
 <?php endif; ?>
