@@ -33,6 +33,10 @@
     <?php endif; // end sidebar widget area ?>
 </div><!-- #secondary .widget-area -->
 
-<div id="tertiary" class="widget-area" role="supplementary">
+<?php if (is_page( 'Get Informed' )) : ?>
+    <div id="tertiary" class="widget-area alignright" role="supplementary">
+<?php else : ?>
+    <div id="tertiary" class="widget-area alignleft" role="supplementary">
+<?php endif; ?>
      <?php dynamic_sidebar( 'sidebar-2' ); ?>
 </div><!-- #tertiary .widget-area -->
