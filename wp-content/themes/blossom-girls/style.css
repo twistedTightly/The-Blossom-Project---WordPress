@@ -346,12 +346,14 @@ a:active {
 .alignleft {
     display: inline;
     float: left;
-    margin-right: 1.5em;
+    margin-right: 1em;
+    margin-left: 2em;
 }
 .alignright {
     display: inline;
     float: right;
-    margin-left: 1.5em;
+    margin-left: 1em;
+    margin-right: 2em;
 }
 .aligncenter {
     clear: both;
@@ -386,14 +388,13 @@ a:active {
     margin-left: 20px;
     margin-right: 10px;
     margin: 0 auto;
-}
+}*/
 
 #secondary.widget-area {
-    float: right;
     max-width: 425px;
     margin-right: 20px;
     margin-left: 10px;
-}*/
+}
 
 /* =Header
 ----------------------------------------------- */
