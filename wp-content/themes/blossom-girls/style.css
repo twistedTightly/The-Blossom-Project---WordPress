@@ -551,6 +551,10 @@ a:active {
     padding: 0 10px;
     margin: auto;
 }
+#main.site-main {
+    padding-top: 12%;
+    padding-bottom: 15%;
+}
 .entry-content,
 .entry-summary {
     max-width: 850px;
@@ -576,6 +580,11 @@ a:active {
     font-weight: bold;
 }
 
+img.coming-soon {
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
 
 /* =AboutPage
 ----------------------------------------------- */
@@ -586,7 +595,6 @@ article#post-4 .entry-title, article#post-4 #team-header {
     font-size: 300%;
     max-width: 850px;
     margin: auto;
-    padding-top: 8%;
     padding-bottom: 3%;
 }
 
@@ -624,7 +632,6 @@ article#post-4 #team-header {
 
 .subtitle.team-title {
     font-size: 90%;
-    padding-bottom: 25%;
 }
 
 /* =Connect
@@ -634,7 +641,7 @@ article#post-4 #team-header {
     color: #E6DE36;
     font-size: 200%;
     text-align: center;
-    padding: 30px inherit;
+    padding: 25px inherit;
 }
 
 /* =Asides
