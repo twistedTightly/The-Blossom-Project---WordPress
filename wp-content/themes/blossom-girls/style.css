@@ -410,7 +410,7 @@ a:active {
 .site-description {
 	text-align: center;
 	padding-bottom: 50px;
-	color: #dbce48;
+	color: #E6DE36;
 	font-family: Bombshell, serif;
     font-size: 280%;
 }
@@ -501,8 +501,8 @@ a:active {
 }
 
 .main-navigation .menu-main-menu-container {
-    border-top: 4px solid #DBCE48;
-    border-bottom: 4px solid #DBCE48;
+    border-top: 4px solid #E6DE36;
+    border-bottom: 4px solid #E6DE36;
     padding: 5px 0;
 }
 
@@ -628,8 +628,9 @@ article#post-4 #team-header {
 
 /* =Connect
 ----------------------------------------------- */
+
 .coming-soon-header {
-    color: #dbce48;
+    color: #E6DE36;
     font-size: 200%;
     text-align: center;
     padding: 30px inherit;
