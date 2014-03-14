@@ -815,6 +815,16 @@ object {
     width: 389px;
     margin-top: 15px;
 }
+/* Tough Topics Widget */
+#tough-topics-wrapper div {
+    background-image: url('./images/Get-Informed-FINAL-IMAGES/frames_get_informed_final.png');
+    background-repeat: no-repeat;
+    padding: 26px 28px 27px 29px;
+    margin-bottom: 5%;
+}
 #tough-topics-wrapper em:hover {
     color: #C6C6C6;
 }
+#tough-topics-intro {
+    padding: 12% 3%;
+    margin: auto;
