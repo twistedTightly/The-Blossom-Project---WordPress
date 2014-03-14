@@ -167,8 +167,11 @@ dd {
 b, strong {
     font-weight: bold;
 }
-dfn, cite, em, i {
+dfn, cite, i {
     font-style: italic;
+}
+em {
+    color: #CD1E52;
 }
 blockquote {
     margin: 0 1.5em;
@@ -580,6 +583,10 @@ a:active {
     font-weight: bold;
 }
 
+.minor-text {
+    font-size: 90%;
+}
+
 img.coming-soon {
     padding-top: 50px;
     padding-bottom: 200px;
@@ -801,4 +808,7 @@ object {
 #gettin-connected-img {
     width: 389px;
     margin-top: 15px;
+}
+#tough-topics-wrapper em:hover {
+    color: #C6C6C6;
 }
