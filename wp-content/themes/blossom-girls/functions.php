@@ -72,8 +72,17 @@ add_action( 'after_setup_theme', 'BlossomGirls_setup' );
  */
 function BlossomGirls_widgets_init() {
     register_sidebar( array(
-        'name' => __( 'Primary Widget Area', 'BlossomGirls' ),
-        'id' => 'sidebar-1',
+        'name' => __( 'Basic Widget Area', 'BlossomGirls' ),
+        'id' => 'basic-sidebar',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h1 class="widget-title">',
+        'after_title' => '</h1>',
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'Homepage Widget Area', 'BlossomGirls' ),
+        'id' => 'homepage-sidebar',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget' => '</aside>',
         'before_title' => '<h1 class="widget-title">',
@@ -81,8 +90,17 @@ function BlossomGirls_widgets_init() {
     ) );
  
     register_sidebar( array(
-        'name' => __( 'Secondary Widget Area', 'BlossomGirls' ),
-        'id' => 'sidebar-2',
+        'name' => __( 'Main Column Widget Area', 'BlossomGirls' ),
+        'id' => 'main-column-widget-area',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h1 class="widget-title">',
+        'after_title' => '</h1>',
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'Tough Topics Widget Area', 'BlossomGirls' ),
+        'id' => 'tough-topics-sidebar',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget' => '</aside>',
         'before_title' => '<h1 class="widget-title">',

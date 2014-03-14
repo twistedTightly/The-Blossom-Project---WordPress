@@ -6,13 +6,11 @@
 * @since BlossomGirls 1.0
 */
 ?>
-<?php if (is_page( 'Get Informed' )) : ?>
-    <div id="secondary" class="widget-area alignleft" role="complementary">
-<?php else : ?>
-    <div id="secondary" class="widget-area alignright" role="complementary">
-<?php endif; ?>
+<?php // Will display on blog posts and Girl Talk page but NOT pages
+if (is_page( 'Girl Talk' ) || is_single()) : ?>
+    <div id="basic" class="widget-area alignright" role="complementary">
     <?php do_action( 'before_sidebar' ); ?>
-    <?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
+    <?php if ( ! dynamic_sidebar( 'basic-sidebar' ) ) : ?>
  
         <aside id="archives" class="widget">
             <h1 class="widget-title"><?php _e( 'Archives', 'BlossomGirls' ); ?></h1>
@@ -31,12 +29,25 @@
         </aside>
  
     <?php endif; // end sidebar widget area ?>
-</div><!-- #secondary .widget-area -->
-
-<?php if (is_page( 'Get Informed' )) : ?>
-    <div id="tertiary" class="widget-area alignright" role="supplementary">
-<?php else : ?>
-    <div id="tertiary" class="widget-area alignleft" role="supplementary">
+    </div><!-- #basic .widget-area -->
 <?php endif; ?>
-     <?php dynamic_sidebar( 'sidebar-2' ); ?>
-</div><!-- #tertiary .widget-area -->
+
+
+<?php // The front page has a full sidebar and full main column widget section
+if (is_front_page()) : ?>
+    <div id="homepage" class="widget-area alignright" role="supplementary">
+        <?php dynamic_sidebar( 'homepage-sidebar' ); ?>
+    </div><!-- #homepage .widget-area -->
+
+    <div id="main-column" class="widget-area alignleft" role="supplementary">
+        <?php dynamic_sidebar( 'main-column-widget-area' ); ?>
+    </div><!-- #main-column .widget-area -->
+<?php endif; ?>
+
+
+<?php // The Get Informed page has a special sidebar
+if (is_page( 'Get Informed' )) : ?>
+    <div id="tough-topics" class="widget-area alignleft" role="supplementary">
+        <?php dynamic_sidebar( 'tough-topics-sidebar' ); ?>
+    </div><!-- #tough-topics .widget-area -->
+<?php endif; ?>
