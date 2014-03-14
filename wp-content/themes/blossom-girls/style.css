@@ -104,6 +104,9 @@ q:before, q:after {
 blockquote, q {
     quotes: "" "";
 }
+a {
+    text-decoration: none;
+}
 a:focus {
     outline: thin dotted;
 }
@@ -127,7 +130,7 @@ textarea {
     font-family: Arial, sans-serif;
     font-size: 16px;
     font-size: 1.6rem;
-    line-height: 1.2;
+    line-height: 1.3;
 }
  
 /* Headings */
@@ -152,7 +155,7 @@ ul {
     list-style: disc;
 }
 ol {
-    list-style: decimal;
+    list-style: lower-alpha;
 }
 ul ul, ol ol, ul ol, ol ul {
     margin-bottom: 0;
