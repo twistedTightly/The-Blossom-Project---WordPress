@@ -771,3 +771,30 @@ object {
 #searchform {
 	background-color: #FFF9DF;
 }
+
+/* Gettin Connected Widget */
+#gettin-connected-wrapper {
+    background-image: url('./images/box_graphic_gettin_connected.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*width: 425px;*/
+    text-align: center;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+#getting-connected-text {
+    text-transform: uppercase;
+    font-family: Raleway, Arial, sans-serif;
+    color: #fff9df;
+    font-weight: bold;
+    background-color: #34b77e;
+    padding: 10px 5px;
+    width: 379px;
+    margin: auto;
+}
+
+#gettin-connected-img {
+    width: 389px;
+    margin-top: 15px;
+}
