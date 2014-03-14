@@ -586,6 +586,10 @@ a:active {
     font-weight: bold;
 }
 
+.major-header {
+    font-size: 200%;
+}
+
 .minor-text {
     font-size: 90%;
 }
@@ -649,7 +653,6 @@ article#post-4 #team-header {
 
 .coming-soon-header {
     color: #E6DE36;
-    font-size: 200%;
     text-align: center;
     padding: 25px inherit;
 }
