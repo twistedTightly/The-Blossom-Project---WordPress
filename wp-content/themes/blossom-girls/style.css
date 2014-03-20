@@ -866,6 +866,10 @@ object {
     padding: 1%;
 }
 
+#talk-of-day-centering {
+    text-align: center;
+}
+
 /* Tough Topics Widget */
 #tough-topics-wrapper div {
     background-image: url('./images/Get-Informed-FINAL-IMAGES/frames_get_informed_final.png');
