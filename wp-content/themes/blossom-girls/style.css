@@ -120,7 +120,7 @@ a img {
 
 /* =Global
 ----------------------------------------------- */
- 
+
 body,
 button,
 input,
@@ -314,9 +314,8 @@ input[type=email],
 textarea {
 	border: none;
     background-color: #FFF9DF;
-    /*color: #666;
-    border: 1px solid #ccc;
-    border-radius: 3px;*/
+    border: 1px solid #FFF9DF;
+    border-radius: 3px;
 }
 input[type=text]:focus,
 input[type=email]:focus,
@@ -556,12 +555,15 @@ a:active {
 .entry-meta {
     clear: both;
 }
+footer.entry-meta {
+    display: none;
+}
 .byline {
     display: none;
 }
 .single .byline,
 .group-blog .byline {
-    display: inline;
+    display: none;
     max-width: 850px;
     padding: 0 10px;
     margin: auto;
@@ -573,7 +575,7 @@ a:active {
 .entry-content,
 .entry-summary {
     max-width: 850px;
-    padding: 0 10px;
+    /*padding: 0 10px;*/
     margin: auto;
 }
 .page-links {
@@ -585,7 +587,10 @@ a:active {
     max-width: 850px;
     padding: 0 10px;
 }
-
+.post-title-bar {
+    width: 100%;
+    text-align: center;
+}
 .section-header {
     padding: 10px 0;
     text-transform: uppercase;
@@ -593,6 +598,12 @@ a:active {
     font-size: 125%;
     font-family: Raleway, Arial, sans-serif;
     font-weight: bold;
+}
+
+time.entry-date {
+    font-family: Raleway, Arial, sans-serif;
+    color: #FFF9DF;
+    text-transform: lowercase;
 }
 
 .major-header {
@@ -608,6 +619,13 @@ img.coming-soon {
     padding-bottom: 200px;
 }
 
+/* =Posts
+----------------------------------------------- */
+.bar {
+    background-color: #fff9df;
+    padding: 2px;
+    margin: 2px;
+}
 
 /* =AboutPage
 ----------------------------------------------- */
@@ -776,6 +794,9 @@ object {
 ----------------------------------------------- */
  
 .bypostauthor {
+}
+.form-allowed-tags {
+    display: none;
 }
  
 /* =Widgets
