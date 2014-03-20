@@ -9,7 +9,7 @@
  
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-header">
-        <?php if (is_page( array('Connect', 'Shop', 'Donate', 'Get Informed') )) : ?>
+        <?php if (is_page( array('Connect', 'Shop', 'Donate', 'Get Informed', 'Girl Talk', 'Home') )) : ?>
 		<?php else : ?>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 		<?php endif; ?>

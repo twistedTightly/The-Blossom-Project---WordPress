@@ -26,7 +26,7 @@ get_header(); ?>
  
                     <?php get_template_part( 'content', 'page' ); ?>
  
- 					<?php if (is_page( array('About Us','Connect','Girl Talk', 'Get Informed', 'Shop', 'Donate') )) : ?>
+ 					<?php if (is_page( array('About Us','Connect','Girl Talk', 'Get Informed', 'Shop', 'Donate', 'Home') )) : ?>
 					<?php else : ?>
                     	<?php comments_template( '', true ); ?>
 					<?php endif; ?>
