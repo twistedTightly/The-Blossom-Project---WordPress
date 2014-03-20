@@ -6,8 +6,8 @@
 * @since BlossomGirls 1.0
 */
 ?>
-<?php // Will display on blog posts and Girl Talk page but NOT pages
-if (is_page( 'Girl Talk' ) || is_single()) : ?>
+<?php // Will display on blog posts and Girl Talk and The Blog page but NOT all other pages
+if (is_page('Girl Talk') || is_home() || is_single()) : ?>
     <div id="basic" class="widget-area alignright" role="complementary">
     <?php do_action( 'before_sidebar' ); ?>
     <?php if ( ! dynamic_sidebar( 'basic-sidebar' ) ) : ?>
