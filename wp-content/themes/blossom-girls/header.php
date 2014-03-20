@@ -67,7 +67,11 @@
 		         	<h1 class="site-title aligncenter"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 		         		<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/logos/logo_FINAL_3_2.png">
 		         	</a></h1>
-    				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+		         	<?php if (is_page( array('Connect', 'Shop', 'Donate', 'Get Informed', 'Girl Talk', 'Home', 'About Us') )) : ?>
+    					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+					<?php else : ?>
+						<h2 class="site-description blog-header">bloggin</h2>
+					<?php endif; ?>
 		        </hgroup>
 		        <nav role="navigation" class="site-navigation main-navigation">
 			        <h1 class="assistive-text"><?php _e( 'Menu', 'BlossomGirls' ); ?></h1>

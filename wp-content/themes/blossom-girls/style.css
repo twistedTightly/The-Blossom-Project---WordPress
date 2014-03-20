@@ -417,9 +417,18 @@ a:active {
 .site-description {
 	text-align: center;
 	padding-bottom: 50px;
+    margin-top: -10px;
 	color: #E6DE36;
 	font-family: Bombshell, serif;
-    font-size: 280%;
+    font-size: 250%;
+}
+
+.site-description.blog-header {
+    font-size: 360%;
+    text-align: right;
+    padding-right: 29%;
+    margin-top: -20px;
+    font-weight: bold;
 }
 
 /* =Footer
