@@ -498,7 +498,7 @@ a:active {
 .main-navigation ul ul li {
 }
 .main-navigation li:hover > a, .footer-navigation li:hover > a {
-	color: #C6C6C6;
+	color: #767676;
 }
 .main-navigation ul ul :hover > a {
 }
@@ -509,7 +509,7 @@ a:active {
 }
 .main-navigation li.current_page_item a,
 .main-navigation li.current-menu-item a {
-	color: #C6C6C6;
+	color: #767676;
 }
 
 .main-navigation .menu-main-menu-container {
@@ -878,7 +878,7 @@ object {
     margin-bottom: 5%;
 }
 #tough-topics-wrapper em:hover {
-    color: #C6C6C6;
+    color: #767676;
 }
 #tough-topics-intro {
     padding: 12% 3%;
