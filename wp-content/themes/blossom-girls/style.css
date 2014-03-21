@@ -344,31 +344,6 @@ a:active {
     color: #B31C44;
 }
 
-/* Alignment */
-.alignleft {
-    display: inline;
-    float: left;
-    margin-right: 1em;
-    margin-left: 2em;
-}
-.alignright {
-    display: inline;
-    float: right;
-    margin-left: 1em;
-    margin-right: 2em;
-}
-.aligncenter {
-    clear: both;
-    display: block;
-    margin: 0 auto;
-}
-
-.main-column, #main-column.widget-area {
-    margin: auto;
-    max-width: 850px;
-    padding: 0 10px;
-}
- 
 /* Text meant only for screen readers */
 .assistive-text {
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -376,26 +351,41 @@ a:active {
     position: absolute !important;
 }
 
-/* =Layout
------------------------------------------------ */
-/* WORKS FOR RIGHT SIDEBAR */
-/*#main.site-main {
+/* Alignment */
+.alignleft {
+    display: inline;
+    float: left;
+    margin-left: 30px;
+    margin-right: 0;
+    max-width: 780px;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 0;
+    margin-right: 30px;
+    max-width: 780px;
+}
+.aligncenter {
+    clear: both;
+    display: block;
     margin: 0 auto;
-    max-width: 1275px;
 }
 
-#primary.content-area { /* Messes with centered layout
-    float: left;
-    max-width: 850px;
-    margin-left: 20px;
-    margin-right: 10px;
-    margin: 0 auto;
-}*/
+/* =Layout
+----------------------------------------------- */
+
+#primary.content-area {
+    margin-top: 30px; /* Added so top would line up with sidebars */
+}
+
+.main-column, #main-column.widget-area {
+    margin: 0 30px;
+    max-width: 780px;
+}
 
 #basic.widget-area, #homepage.widget-area, #tough-topics.widget-area {
-    max-width: 425px;
-    margin-right: 20px;
-    margin-left: 10px;
+    max-width: 390px;
 }
 
 /* =Header
@@ -467,7 +457,7 @@ a:active {
 .main-navigation li, .footer-navigation li {
     position: relative;
     display: inline-block;
-	padding: 0 1%;
+	padding: 0 2%;
 }
 .main-navigation a, .footer-navigation a {
     display: block;
@@ -561,17 +551,19 @@ footer.entry-meta {
 .single .byline,
 .group-blog .byline {
     display: none;
-    max-width: 850px;
+    max-width: 780px;
     padding: 0 10px;
     margin: auto;
 }
 #main.site-main {
+    max-width: 1260px;
+    margin: 0 auto;
     padding-top: 12%;
     padding-bottom: 15%;
 }
 .entry-content,
 .entry-summary {
-    max-width: 850px;
+    max-width: 780px;
     /*padding: 0 10px;*/
     margin: auto;
 }
@@ -581,7 +573,7 @@ footer.entry-meta {
 }
 .entry-title {
     margin: auto;
-    max-width: 850px;
+    max-width: 780px;
     padding: 0 10px;
 }
 .post-title-bar {
@@ -631,7 +623,7 @@ article#post-4 .entry-title, article#post-4 #team-header {
     color: #fff9df;
     font-family: Bombshell, serif;
     font-size: 300%;
-    max-width: 850px;
+    max-width: 780px;
     margin: auto;
     padding-bottom: 3%;
 }
@@ -648,19 +640,29 @@ article#post-4 #team-header {
     text-align: center;
 }
 
+.about-gallery img.gallery-item {
+    height: 144px;
+    width: auto;
+}
+
 .about-gallery img.gallery-item.not-last {
-    margin-right: 33px;
+    margin-right: 20px;
+}
+
+.team-gallery img.gallery-item {
+    width: 180px;
+    height: 180px;
 }
 
 .team-gallery img.gallery-item.not-last, .team-gallery .subtitle.not-last {
-    margin-right: 16px;
+    margin-right: 20px;
 }
 
 /* Team Gallery Subtitles */
 .subtitle.team-name, .subtitle.team-title {
     text-align: left;
     float: left;
-    width: 200px;
+    width: 180px;
 }
 
 .subtitle.team-name {
@@ -813,7 +815,8 @@ object {
 }
 
 .sidebar-widget {
-    padding: 16px 0;
+    margin: 30px 0;
+}
 
 .box-title {
     text-transform: lowercase;
@@ -831,10 +834,9 @@ object {
     background-image: url('./images/box_graphic_gettin_connected.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    /*width: 425px;*/
     text-align: center;
     padding: 15px;
-    padding-top: 30px;
+    padding-top: 0;
 }
 
 #getting-connected-text {
@@ -844,12 +846,13 @@ object {
     font-weight: bold;
     background-color: #34b77e;
     padding: 10px 5px;
-    width: 379px;
+    width: 350px;
     margin: auto;
 }
 
 #gettin-connected-img {
-    width: 389px;
+    width: 360px;
+    height: auto;
     margin-top: 15px;
 }
 
@@ -859,23 +862,25 @@ object {
     padding: 5%;
     padding-top: 0px;
 }
+#talk-of-day-wrapper p {
+    font-size: 110%;
+    margin-bottom: .8em;
+}
 #talk-of-day-wrapper h1 {
     font-family:  Raleway, Arial, sans-serif;
     font-weight: bold;
     font-size: 125%;
     text-transform: lowercase;
     margin-right: 55%;
-    padding: 7px 0px;
+    padding: 11px 0px;
 }
-
 #talk-of-day-wrapper .title {
     background-color: #E6DE36;
     text-align: center;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    padding: 1%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    padding: 2%;
 }
-
 #talk-of-day-centering {
     text-align: center;
 }
