@@ -814,6 +814,16 @@ object {
 
 .sidebar-widget {
     padding: 16px 0;
+
+.box-title {
+    text-transform: lowercase;
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 130%;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    color: #fff9df;
 }
 
 /* Gettin Connected Widget */

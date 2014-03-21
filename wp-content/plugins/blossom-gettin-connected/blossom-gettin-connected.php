@@ -30,6 +30,7 @@ Description: An advertisement to link users to the Get Connected page
 			// 	echo $args['before_title'] . $title . $args['after_title'];
 			?>
 			<div id="gettin-connected-wrapper" class="sidebar-widget">
+				<h1 class="box-title">Gettin' Connected</h1>
 				<p id="getting-connected-text">
 					Connect With Another Blossom Girl Across The World!
 				</p>
