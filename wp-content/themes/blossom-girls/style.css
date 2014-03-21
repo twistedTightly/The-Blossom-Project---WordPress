@@ -683,6 +683,19 @@ article#post-4 #team-header {
     padding: 25px inherit;
 }
 
+/* =Get Informed
+----------------------------------------------- */
+
+.section-header#STDs {
+    text-transform: none;
+}
+
+h5.section-header {
+    color: #303030;
+}
+
+
+
 /* =Asides
 ----------------------------------------------- */
  
