@@ -696,6 +696,25 @@ h5.section-header {
 
 
 
+/* =Girl Talk
+----------------------------------------------- */
+#post-37 .entry-content {
+    background-image: url('./images/Girl-Talk-FINAL-IMAGES/todays_big_question_box.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 25px;
+    padding-top: 30px;
+}
+
+#post-37 span.section-header {
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+#post-37 img {
+    padding-bottom: 10px;
+}
+
 /* =Asides
 ----------------------------------------------- */
  
