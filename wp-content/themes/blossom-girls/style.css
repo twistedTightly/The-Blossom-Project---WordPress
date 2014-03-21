@@ -871,15 +871,16 @@ object {
 }
 
 /* Tough Topics Widget */
-#tough-topics-wrapper div {
+.tough-topics-header {
+    padding-top: 0;
+}
+
+#tough-topics-intro {
     background-image: url('./images/Get-Informed-FINAL-IMAGES/frames_get_informed_filled_FINAL.png');
     background-repeat: no-repeat;
-    padding: 26px 28px 27px 29px;
-    margin-bottom: 5%;
+    min-height: 230px;
+    padding: 10% 10%;
 }
 #tough-topics-wrapper em:hover {
-    color: #767676;
+    color: #B31C44;
 }
-#tough-topics-intro {
-    padding: 12% 3%;
-    margin: auto;

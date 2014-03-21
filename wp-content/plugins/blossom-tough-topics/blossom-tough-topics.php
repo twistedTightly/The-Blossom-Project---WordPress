@@ -31,7 +31,7 @@ Description: An extensive content-centric widget with a number of links to infor
 			?>
 			<div id="tough-topics-wrapper" class="sidebar-widget">
 				<h1 class="tough-topics-header section-header major-header">The Tough Topics</h1>
-				<div><p id="tough-topics-intro">It's always best to talk about the tough things we go through as young girls with our parents, but sometimes its just too awkward, or we don’t get all the answers we need, in which case its Blossom to the rescue! We’re doing our best to get all the information you might need to grow up happy and healthy in one place, and adding more every day! So click through the topics below, get informed, and remember we’re all in this together!</p></div>
+				<p id="tough-topics-intro">It's always best to talk about the tough things we go through as young girls with our parents, but sometimes its just too awkward, or we don’t get all the answers we need, in which case its Blossom to the rescue! We’re doing our best to get all the information you might need to grow up happy and healthy in one place, and adding more every day! So click through the topics below, get informed, and remember we’re all in this together!</p>
 				<h2 class="section-header">Talking Sex</h2>
 				<p class="tough-topic-content minor-text">Where do we even start? There are so many questions we have about sex and everything involved with it and its so hard to get straight answers about all of it. Here, we’ll talk about everything you need to know to make informed decisions regarding sex including the <em>basics of sex</em>, <em>sexually transmitted diseases</em>, <em>birth control</em>, and <em>sexual abuse</em>.</p>
 				<h2 class="section-header">Bodily Health</h2>
