@@ -30,7 +30,9 @@ Description: A hand drawn image by Maria Massa to welcome users to the homepage 
 			// 	echo $args['before_title'] . $title . $args['after_title'];
 			?>
 			<div id="welcome-image-wrapper" class="sidebar-widget">
-				<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/Homepage-FINAL-IMAGES/welcome_to_blossom.png" alt="Welcome to Blossom">
+				<a href="<?php echo home_url(); ?>/about-us/" alt="Read more about Blossom">
+					<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/Homepage-FINAL-IMAGES/welcome_to_blossom.png" alt="Welcome to Blossom">
+				</a>
 			</div>
 			<?php //echo $args['after_widget'];
 		}

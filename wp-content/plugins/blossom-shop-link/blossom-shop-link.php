@@ -30,7 +30,9 @@ Description: A fun link to the shop page to promote Blossom apparel
 			// 	echo $args['before_title'] . $title . $args['after_title'];
 			?>
 			<div id="shop-link-wrapper" class="sidebar-widget">
-				<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/Homepage-FINAL-IMAGES/shop_the_tshirt.jpg" alt="Shop the Shirt!">
+				<a href="<?php echo home_url(); ?>/shop/" alt="Shop the Shirt!">
+					<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/Homepage-FINAL-IMAGES/shop_the_tshirt.jpg" alt="Shop the Shirt!">
+				</a>
 			</div>
 			<?php //echo $args['after_widget'];
 		}

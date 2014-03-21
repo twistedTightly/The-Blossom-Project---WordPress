@@ -30,7 +30,9 @@ Description: A link to invite girls to apply to blog for Blossom
 			// 	echo $args['before_title'] . $title . $args['after_title'];
 			?>
 			<div id="blogger-apply-wrapper" class="sidebar-widget">
-				<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/Homepage-FINAL-IMAGES/apply_guest_blogger.jpg" alt="Apply to be a guest blogger!">
+				<a href="<?php echo home_url() ?>/coming-soon/" alt="Apply to blog for Blossom here">
+					<img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/Homepage-FINAL-IMAGES/apply_guest_blogger.jpg" alt="Apply to be a guest blogger!">
+				</a>
 			</div>
 			<?php //echo $args['after_widget'];
 		}

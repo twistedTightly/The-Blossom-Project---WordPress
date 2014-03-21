@@ -34,7 +34,7 @@ Description: A cute question and answer widget that links girls to the full answ
 				<h1>The Question:</h1>
 				<p>I’m dating my best friend and I just realized I’m not in love with him the way he is with me. Do I have to break up with him? Help!</p>
 				<h1>The Answer:</h1>
-				<div id="talk-of-day-centering"><a class="section-header" href="">Read &amp; Comment</a></div>
+				<div id="talk-of-day-centering"><a class="section-header" href="<?php echo home_url(); ?>/girl-talk/" alt="Read more on the Girl Talk page">Read &amp; Comment</a></div>
 			</div>
 			<?php //echo $args['after_widget'];
 		}

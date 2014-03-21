@@ -30,11 +30,13 @@ Description: An advertisement to link users to the Get Connected page
 			// 	echo $args['before_title'] . $title . $args['after_title'];
 			?>
 			<div id="gettin-connected-wrapper" class="sidebar-widget">
-				<h1 class="box-title">Gettin' Connected</h1>
-				<p id="getting-connected-text">
-					Connect With Another Blossom Girl Across The World!
-				</p>
-				<img id="gettin-connected-img" src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/Homepage-FINAL-IMAGES/gettin_connected.jpg" alt="Get Connected!">
+				<a href="<?php echo home_url(); ?>/connect/" alt="Connect!">
+					<h1 class="box-title">Gettin' Connected</h1>
+					<p id="getting-connected-text">
+						Connect With Another Blossom Girl Across The World!
+					</p>
+					<img id="gettin-connected-img" src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/Homepage-FINAL-IMAGES/gettin_connected.jpg" alt="Get Connected!">
+				</a>
 			</div>
 			<?php //echo $args['after_widget'];
 		}
