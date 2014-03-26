@@ -113,10 +113,11 @@ add_action( 'widgets_init', 'BlossomGirls_widgets_init' );
  * Enqueue any desired scripts and styles
  */
 function BlossomGirls_scripts() {
-    // Register the script like this for a theme:
     wp_register_script( 'accordion_script', get_template_directory_uri() . '/js/accordion_script.js', array( 'jquery-ui-accordion', 'jquery') );
     wp_enqueue_script( 'accordion_script' );
 
+    //wp_register_script( 'form-validation-script', get_template_directory_uri() . '/js/form-validation.js' );
+    //wp_enqueue_script( 'form-validation-script' );
 
     wp_enqueue_style( 'style', get_stylesheet_uri() );
  
