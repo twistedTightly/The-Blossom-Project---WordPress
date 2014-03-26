@@ -596,7 +596,7 @@ time.entry-date {
 }
 
 .major-header {
-    font-size: 200%;
+    font-size: 180%;
 }
 
 .minor-text {
@@ -694,7 +694,46 @@ h5.section-header {
     color: #303030;
 }
 
+#post-41 .major-header {
+    background-color: #FFF9DF;
+    background: rgb(255, 249, 223); /* The Fallback */
+    background: rgba(255, 249, 223, 0.4);
+}
 
+/* Accordian Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+    cursor: default !important;
+}
+
+/* Accordian Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+    display: inline-block;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-image: url('images/caret.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 25px;
+}
+
+.ui-state-active .ui-icon {
+    background-image: url('images/caret_selected.png');
+}
+
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: .7em 0;
+    padding: .3em .3em .3em .5em;
+    min-height: 0; /* support: IE7 */
+}
 
 /* =Girl Talk
 ----------------------------------------------- */
