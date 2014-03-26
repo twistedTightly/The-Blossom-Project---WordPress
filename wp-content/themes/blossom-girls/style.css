@@ -608,6 +608,10 @@ img.coming-soon {
     padding-bottom: 200px;
 }
 
+.home#primary {
+    display: none; /* Hide the content of the page on the front page */
+}
+
 /* =Posts
 ----------------------------------------------- */
 .bar {
