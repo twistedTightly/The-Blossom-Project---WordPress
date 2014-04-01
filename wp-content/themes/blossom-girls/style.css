@@ -1007,10 +1007,6 @@ object {
     margin-bottom: .8em;
 }
 #talk-of-day-wrapper h1 {
-    font-family:  Raleway, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 125%;
-    text-transform: lowercase;
     margin-right: 55%;
     padding: 11px 0px;
 }
