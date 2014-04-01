@@ -138,10 +138,11 @@ h1,h2,h3,h4,h5,h6 {
     clear: both;
 }
 hr {
-    background-color: #ccc;
     border: 0;
-    height: 1px;
     margin-bottom: 1.5em;
+    background-color: #CD1E52;
+    height: 2px;
+    width: 30%;
 }
  
 /* Text elements */
@@ -541,6 +542,7 @@ a:active {
 }
 .entry-meta {
     clear: both;
+    margin-bottom: 10px;
 }
 footer.entry-meta {
     display: none;
@@ -578,7 +580,7 @@ footer.entry-meta {
 }
 .post-title-bar {
     width: 100%;
-    text-align: center;
+    /*text-align: center;*/
 }
 .section-header {
     padding: 10px 0;
@@ -588,28 +590,51 @@ footer.entry-meta {
     font-family: Raleway, Arial, sans-serif;
     font-weight: bold;
 }
-
 time.entry-date {
     font-family: Raleway, Arial, sans-serif;
+    font-weight: bold;
     color: #FFF9DF;
     text-transform: lowercase;
 }
-
 .major-header {
     font-size: 180%;
 }
-
+.minor-header {
+    font-family:  Raleway, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    text-transform: lowercase;
+}
+.sub-header {
+    font-size: 110%;
+}
+.header-spacing {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
 .minor-text {
     font-size: 90%;
 }
-
+.footnote {
+    font-size: 80%;
+}
 img.coming-soon {
     padding-top: 50px;
     padding-bottom: 200px;
 }
-
 .home#primary {
     display: none; /* Hide the content of the page on the front page */
+}
+.inset {
+    padding-left: 40px;
+}
+.signature {
+    font-family: Bombshell, serif;
+    font-weight: bold;
+    font-size: 110%;
+}
+#interview-header { /* Specific to Nikita blog post*/
+    text-transform: none;
 }
 
 /* =Posts
@@ -744,7 +769,7 @@ h5.section-header {
 #post-37 .entry-content {
     background-image: url('./images/Girl-Talk-FINAL-IMAGES/todays_big_question_box.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     padding: 25px;
     padding-top: 30px;
 }
@@ -908,10 +933,10 @@ object {
 #gettin-connected-wrapper {
     background-image: url('./images/box_graphic_gettin_connected.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     text-align: center;
     padding: 15px;
-    padding-top: 0;
+    padding-top: 25px;
 }
 
 #getting-connected-text {
