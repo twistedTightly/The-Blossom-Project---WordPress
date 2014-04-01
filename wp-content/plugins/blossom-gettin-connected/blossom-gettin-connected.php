@@ -31,7 +31,6 @@ Description: An advertisement to link users to the Get Connected page
 			?>
 			<div id="gettin-connected-wrapper" class="sidebar-widget">
 				<a href="<?php echo home_url(); ?>/connect/" alt="Connect!">
-					<h1 class="box-title">Gettin' Connected</h1>
 					<p id="getting-connected-text">
 						Connect With Another Blossom Girl Across The World!
 					</p>
