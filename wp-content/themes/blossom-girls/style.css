@@ -570,7 +570,7 @@ footer.entry-meta {
 #main.site-main {
     max-width: 1260px;
     margin: 0 auto;
-    padding-top: 12%;
+    /*padding-top: 12%;*/
     padding-bottom: 15%;
 }
 .entry-content,
@@ -665,6 +665,7 @@ article#post-4 .entry-title, article#post-4 #team-header {
     max-width: 780px;
     margin: auto;
     padding-bottom: 3%;
+    padding-top: 5%;
 }
 
 article#post-4 #team-header {
@@ -715,6 +716,10 @@ article#post-4 #team-header {
 
 /* =Connect
 ----------------------------------------------- */
+
+#post-39 img {
+    margin-top: 5%;
+}
 
 .coming-soon-header {
     color: #E6DE36;
