@@ -253,23 +253,32 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-    border: 1px solid #ccc;
+    font-family: Raleway, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 130%;
+    padding: 5px 12px;
+    margin-right: 30px;
+    background-color: #E6DE36;
+    border: none;
+    float: right;
+    /*border: 1px solid #ccc;
     border-color: #ccc #ccc #bbb #ccc;
     border-radius: 3px;
     background: #e6e6e6;
     -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), inset 0 15px 17px rgba(255,255,255,0.5), inset 0 -5px 12px rgba(0,0,0,0.05);
     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), inset 0 15px 17px rgba(255,255,255,0.5), inset 0 -5px 12px rgba(0,0,0,0.05);
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), inset 0 15px 17px rgba(255,255,255,0.5), inset 0 -5px 12px rgba(0,0,0,0.05);
-    color: rgba(0,0,0,.8);
+    color: rgba(0,0,0,.8);*/
     cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
-    -webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
-    font-size: 12px;
+    /*-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
+    /*font-size: 12px;
     font-size: 1.4rem;
     line-height: 1;
     padding: 1.12em 1.5em 1em;
-    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);*/
 }
-button:hover,
+/*button:hover,
 html input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
@@ -294,29 +303,29 @@ input[type="submit"]:active {
 input[type="checkbox"],
 input[type="radio"] {
     box-sizing: border-box; /* Addresses box sizing set to content-box in IE8/9 */
-    padding: 0; /* Addresses excess padding in IE8/9 */
-}
+    /*padding: 0; /* Addresses excess padding in IE8/9 */
+/*}
 input[type="search"] {
     -webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */
-    -moz-box-sizing: content-box;
+    /*-moz-box-sizing: content-box;
     -webkit-box-sizing: content-box; /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
-    box-sizing: content-box;
+    /*box-sizing: content-box;
 }
 input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
-    -webkit-appearance: none;
+    /*-webkit-appearance: none;
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner { /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
-    border: 0;
+    /*border: 0;
     padding: 0;
-}
+}*/
 input[type=text],
 input[type=email],
 textarea {
 	border: none;
     background-color: #FFF9DF;
     border: 1px solid #FFF9DF;
-    border-radius: 3px;
+    /*border-radius: 3px;*/
 }
 input[type=text]:focus,
 input[type=email]:focus,
@@ -333,6 +342,7 @@ textarea {
     padding-left: 3px;
     vertical-align: top; /* Improves readability and alignment in all browsers */
     width: 98%;
+    resize: none;
 }
  
 /* Links */
@@ -710,6 +720,36 @@ article#post-4 #team-header {
     color: #E6DE36;
     text-align: center;
     padding: 25px inherit;
+}
+
+.connect-signup.ui-accordion .ui-accordion-header {
+    margin: .7em 0;
+    padding: .3em .3em .3em 0;
+}
+
+.connect-signup .ui-icon {
+    margin-right: 15px;
+}
+
+.connect-signup .section-header {
+    font-weight: normal;
+    font-size: 150%;
+}
+
+.connect-signup form {
+    width: 780px;
+}
+
+#sign-up form span {
+    text-transform: uppercase;
+    padding: 5px 0;
+    margin: 10px 0;
+    width: 250px;
+    float: left;
+}
+
+.connect-signup input, .connect-signup textarea {
+    margin: 15px;
 }
 
 /* =Get Informed
