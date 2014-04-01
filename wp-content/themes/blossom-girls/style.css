@@ -996,6 +996,50 @@ object {
     margin-top: 15px;
 }
 
+/* Question Form Widget */
+
+#question-form-wrapper {
+    background-color: #34B77E;
+    padding: 15px;
+    padding-bottom: 47px;
+}
+
+#question-form-wrapper h1 {
+    text-align: center;
+    padding: 0;
+    color: #FFF9DF;
+}
+
+#question-form-wrapper p {
+    padding: 10px 0;
+    margin: 0;
+}
+
+#question-form-wrapper input[type="submit"] {
+    background-color: #FFF9DF;
+    color: #CD1E52;
+    margin-right: 3px;
+}
+
+#question-form-wrapper label {
+    color: #FFF9DF;
+}
+
+#my-question {
+    width: 97%;
+    height: 100px;
+    margin-top: 3px;
+    margin-bottom: 12px;
+}
+
+/* Girl of the Week Widget */
+#girl-of-week-wrapper h1 {
+    text-align: center;
+    font-size: 115%;
+    background-color: #FFF9DF;
+    margin-top: -5px;
+}
+
 /* Talk of the Day Widget */
 #talk-of-day-wrapper {
     background-color: #FFF9DF;
