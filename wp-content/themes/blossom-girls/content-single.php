@@ -8,12 +8,13 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-header">
         <div class="entry-meta post-title-bar">
-            <span class="bar"></span>
             <?php BlossomGirls_posted_on(); ?>
-            <span class="bar"></span>
         </div><!-- .entry-meta -->
 
-        <!-- Find a way to load an associated image here first -->
+        <?php if ( has_post_thumbnail() ) {
+            the_post_thumbnail('full');
+        } ?>
+
         <h1 class="entry-title section-header"><?php the_title(); ?></h1>
 
     </header><!-- .entry-header -->

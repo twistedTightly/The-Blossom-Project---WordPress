@@ -20,7 +20,7 @@ get_header(); ?>
 <div id="primary" class="content-area alignleft">
     <div id="content" class="site-content" role="main">
     	<?php if ( have_posts() ) : ?>
-	    	<?php BlossomGirls_content_nav( 'nav-above' ); ?>
+	    	<?php //BlossomGirls_content_nav( 'nav-above' ); ?>
 
 		    <?php /* Start the Loop */ ?>
 		    <?php while ( have_posts() ) : the_post(); ?>

@@ -13,7 +13,10 @@
         </div><!-- .entry-meta -->
         <?php endif; ?>
 
-        <!-- Need to find a way to get a header image here -->
+        <?php if ( has_post_thumbnail() ) {
+            the_post_thumbnail('full');
+        } ?>
+
         <h1 class="entry-title section-header"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'BlossomGirls' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
     </header><!-- .entry-header -->
  
@@ -23,7 +26,7 @@
     </div><!-- .entry-summary -->
     <?php else : ?>
     <div class="entry-content">
-        <?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'BlossomGirls' ) ); ?>
+        <?php the_content( __( '<br>READ MORE <span class="meta-nav">&gt;&gt;&gt;</span>', 'BlossomGirls' ) ); ?>
         <?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'BlossomGirls' ), 'after' => '</div>' ) ); ?>
     </div><!-- .entry-content -->
     <?php endif; ?>
