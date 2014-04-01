@@ -942,6 +942,30 @@ object {
 .form-allowed-tags {
     display: none;
 }
+.comments-area {
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.comments-area input#submit {
+    background-color: #CD1E52;
+    color: #FFF9DF;
+    float: left;
+    border-radius: 5px;
+}
+.comments-area h2 {
+    padding-top: 50px;
+    margin-bottom: 15px;
+    color: #FFF9DF;
+}
+.comments-area cite {
+    color: #CD1E52;
+    font-weight: normal;
+    font-style: normal;
+}
+.comments-area .vcard {
+    vertical-align: top;
+}
  
 /* =Widgets
 ----------------------------------------------- */
