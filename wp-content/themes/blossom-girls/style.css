@@ -379,13 +379,13 @@ a:active {
     margin-top: 30px; /* Added so top would line up with sidebars */
 }
 
+.widget-area {
+    max-width: 390px;
+}
+
 .main-column, #main-column.widget-area {
     margin: 0 30px;
     max-width: 780px;
-}
-
-#basic.widget-area, #homepage.widget-area, #tough-topics.widget-area {
-    max-width: 390px;
 }
 
 /* =Header

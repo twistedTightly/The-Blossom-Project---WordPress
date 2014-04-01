@@ -6,11 +6,11 @@
 * @since BlossomGirls 1.0
 */
 ?>
-<?php // Will display on blog posts and Girl Talk and The Blog page but NOT all other pages
-if (is_page('Girl Talk') || is_home() || is_single()) : ?>
-    <div id="basic" class="widget-area alignright" role="complementary">
+<?php // Will display on blog posts and The Blog page but NOT all other pages
+if ( is_home() || is_single() ) : ?>
+    <div id="blog-sidebar" class="widget-area alignright" role="complementary">
     <?php do_action( 'before_sidebar' ); ?>
-    <?php if ( ! dynamic_sidebar( 'basic-sidebar' ) ) : ?>
+    <?php if ( ! dynamic_sidebar( 'blog-sidebar' ) ) : ?>
  
         <aside id="archives" class="widget">
             <h1 class="widget-title"><?php _e( 'Archives', 'BlossomGirls' ); ?></h1>
@@ -29,7 +29,7 @@ if (is_page('Girl Talk') || is_home() || is_single()) : ?>
         </aside>
  
     <?php endif; // end sidebar widget area ?>
-    </div><!-- #basic .widget-area -->
+    </div><!-- #blog-sidebar .widget-area -->
 <?php endif; ?>
 
 
@@ -44,6 +44,12 @@ if (is_front_page()) : ?>
     </div><!-- #main-column .widget-area -->
 <?php endif; ?>
 
+<?php // The Girl Talk page has a special sidebar
+if (is_page( 'Girl Talk' )) : ?>
+    <div id="girl-talk" class="widget-area alignright" role="supplementary">
+        <?php dynamic_sidebar( 'girl-talk-sidebar' ); ?>
+    </div><!-- #tough-topics .widget-area -->
+<?php endif; ?>
 
 <?php // The Get Informed page has a special sidebar
 if (is_page( 'Get Informed' )) : ?>
