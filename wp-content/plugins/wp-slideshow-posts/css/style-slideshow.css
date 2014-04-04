@@ -1,0 +1,225 @@
+/* slideshow 1 */	
+
+.ss1_wrapper { 
+	margin: 20px 0; 
+	position:relative;
+	width:100%;
+	height:100%;
+	padding: 0;
+}
+.ss1_wrapper .ss1_entry {
+	height: 350px; 
+	margin: 0 auto;
+	position:relative;
+	border: 0.5em solid transparent;
+	box-shadow: 0px 0px 7px rgba(0,0,0,0.1); 
+}
+.slideshow_wrapper,
+.ss1_wrapper .slideshow {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: table;
+	*overflow: hidden; /* hack para o IE6 e IE7 */
+	*position: relative; /* hack para o IE6 e IE7 */
+}
+
+	.ss1_wrapper .slideshow_item { 
+		width:100%; 
+		line-height: 0;
+	}
+	.ss1_wrapper .slideshow_item .data { 
+		display:none; 
+	}
+
+	.ss1_wrapper a.slideshow_prev { 
+		position:absolute; 
+		right:55px;  
+		top:25px; 
+		z-index:10; 
+		width:25px; 
+		height:30px; 
+		outline:none;  
+	}
+		.ss1_wrapper a.slideshow_prev:hover { 
+		
+		}
+
+
+		.ss1_wrapper a.slideshow_prev span { 
+			display:block; 
+			width:25px; 
+			height:30px; 
+			background-image:url(../images/arrows.png);
+			background-repeat: no-repeat;
+			background-position: 7px 50%;
+			text-indent:-9999px; 
+		}
+		
+	.ss1_wrapper a.slideshow_next { 
+		position:absolute; 
+		right:30px; 
+		top:25px; 
+		z-index:10; 
+		width:25px; 
+		height:30px; 
+		outline:none; 
+	}
+		.ss1_wrapper a.slideshow_next:hover { 
+		
+		}
+		.ss1_wrapper a.slideshow_next span { 
+			display:block; 
+			width:25px; 
+			height:30px; 
+			background-image:url(../images/arrows.png); 
+			background-repeat: no-repeat;
+			background-position: -12px 50%;
+			text-indent:-9999px;
+		}
+	
+	.ss1_wrapper .slideshow_paging { 
+		position:absolute; 
+		bottom:10px; 
+		width:100%;
+		display:block;
+		text-align:center; 
+		z-index:11; 
+		font-size:12px; 
+	}
+		.ss1_wrapper .slideshow_paging a { 
+			color:#FFF; 
+			font-weight:bold;  
+			margin:0 0 0 2px; 
+			padding:4px 7px; 
+			font-style: italic;
+		}
+			.ss1_wrapper .slideshow_paging a:hover { 
+				color:#fff 
+			}
+			.ss1_wrapper .slideshow_paging a.activeSlide { 
+				text-decoration: none;
+
+			}
+
+
+	.ss1_wrapper .slideshow_box {
+		vertical-align: middle;
+		display: table-cell;
+		position: static;
+		*top: 50%; /* hack para o IE6 e IE7 */
+		*position: absolute; /* hack para o IE6 e IE7 */ 
+	}
+		.ss1_wrapper .slideshow_box .data {
+			top: -50%;
+			left: 0;
+			width: 60%;
+			margin: auto auto auto 30px;
+			position: relative;
+			z-index:5;
+			padding:0; 
+			color:#ddd;
+		}
+		.ss1_wrapper .slideshow_box .data h4 { 
+			color:#fff; 
+			padding:15px 15px 10px; 
+			margin:0;
+			line-height:1em;
+			font-weight: bold;
+			font-family: Arial, sans-serif;
+			font-size: 25px;
+			text-shadow: 1px 1px 1px rgba(0,0,0,0.5);	
+		}
+		.ss1_wrapper .slideshow_box .data p { 
+			padding:0 15px 15px; 
+			margin:0; 
+			line-height:140%;
+			font-size: 17px;
+			font-style: italic;
+			font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+			text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+		}
+		.ss1_wrapper .slideshow_box .data a { 
+			color:#fff; 
+		}
+		
+.ss1_wrapper img {
+	width:100%;
+	height:350px;
+	dispaly: block;
+}
+
+
+@media (max-width: 800px) {
+.ss1_wrapper .ss1_entry {
+	height: 300px; 
+}
+.ss1_wrapper img {
+	height: 300px;
+}
+}
+
+@media (max-width: 650px) {
+.ss1_wrapper .ss1_entry {
+	height: 250px; 
+}
+.ss1_wrapper img {
+	height: 250px;
+}
+
+}
+
+@media (max-width: 450px) {
+.ss1_wrapper .ss1_entry {
+	height: 200px; 
+}
+.ss1_wrapper img {
+	height: 200px;
+}
+	.ss1_wrapper a.slideshow_prev { 
+		display: none;
+	}
+		.ss1_wrapper a.slideshow_prev span { 
+			display: none;
+		}
+		
+	.ss1_wrapper a.slideshow_next { 
+		display: none;
+	}
+		.ss1_wrapper a.slideshow_next span {  
+			display: none;
+		}
+
+		.ss1_wrapper .slideshow_box .data {
+			top: -50%;
+			left: 0;
+			width: auto;
+			margin: 0;
+		}
+		.ss1_wrapper .slideshow_box .data p { 
+			display: none;
+		}
+		.ss1_wrapper .slideshow_box .data h4 { 
+			word-wrap: break-word;
+			-webkit-hyphens: auto;
+			-moz-hyphens: auto;
+			hyphens: auto;
+			font:bold 15px arial, sans-serif;
+			text-align: center; 
+			margin: 0;
+		}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+.ss1_wrapper .ss1_entry {
+	height: 150px; 
+}
+.ss1_wrapper img {
+	height: 150px;
+}
+}
+
+
+
+
+

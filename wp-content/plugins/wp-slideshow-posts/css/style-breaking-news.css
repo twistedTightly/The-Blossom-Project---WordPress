@@ -1,0 +1,64 @@
+/* Ticker box
+----------------------------------------- */
+#ticker-wrapper {
+	position: relative;
+	margin: 0 auto;
+	clear: both;
+	box-shadow: 0px 0px 7px rgba(0,0,0,0.1); 
+}
+#ticker-wrapper h3 {
+	float: left;
+	margin: 0;
+	padding: 0 1em 0 2.3em;
+	height: 37px;
+	line-height: 2.5em;
+	background: url("../images/bullhorn.png") no-repeat scroll 11px 11px;
+	color: #fff;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);	
+}
+#ticker-wrapper div {
+	height: 37px;
+	margin: 0;
+	position: relative;
+}
+#ticker-wrapper a {
+	line-height: 3em;
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+}
+#ticker-wrapper a:hover {
+	text-decoration: underline;
+}
+#ticker-wrapper a#ticker-cat {
+	font-weight: bold;
+	background: url("../images/category-icon.png") no-repeat scroll left 0px transparent;
+	padding: 0 0 0 18px;
+	text-transform: uppercase;
+}
+#s7 {
+	overflow: hidden;
+}
+#entry-s7 {
+	padding: 0 1em;
+}
+#ticker-wrapper #random-article {
+	position: absolute;
+	right:0;
+	top:0;
+	z-index: 9999;
+	margin: 0 0 0 2.6%;
+	height: 37px;
+}
+#ticker-wrapper #random-article a {
+	background: url("../images/random-icon.png") no-repeat scroll center center;
+	height: 37px;
+	margin: 0 0 0 10px;
+	text-indent: -99999px;
+	width: 42px;
+	display: block;
+}

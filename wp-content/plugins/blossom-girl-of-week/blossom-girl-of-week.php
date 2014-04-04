@@ -30,9 +30,9 @@ Description: A spotlight on an inspirational Blossom girl
 			// 	echo $args['before_title'] . $title . $args['after_title'];
 			?>
 			<div id="girl-of-week-wrapper" class="sidebar-widget"
-			><img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/Girl-Talk-FINAL-IMAGES/dasuni_widget.jpg" alt="Blossom Girl of the Week"
+			><a href="http://localhost:8888/blossom-girl-of-the-week-dasuni-baptist/"><img src="<?php echo esc_attr( get_template_directory_uri() ); ?>/images/Girl-Talk-FINAL-IMAGES/dasuni_widget.jpg" alt="Blossom Girl of the Week"
 			><h1 class="section-header">Meet our Blossom Girl of the Week!</h1
-			></div>
+			></a></div>
 			<?php //echo $args['after_widget'];
 		}
 				
