@@ -142,4 +142,9 @@ function BlossomGirls_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'BlossomGirls_scripts' );
 
+function new_excerpt_more( $more ) {
+    return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
 add_theme_support( 'post-thumbnails' ); 
