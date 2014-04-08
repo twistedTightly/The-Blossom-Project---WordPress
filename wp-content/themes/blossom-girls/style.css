@@ -570,8 +570,8 @@ footer.entry-meta {
 #main.site-main {
     max-width: 1260px;
     margin: 0 auto;
-    /*padding-top: 12%;*/
-    padding-bottom: 15%;
+    /*padding-top: 12%;
+    padding-bottom: 15%;*/
 }
 .entry-content,
 .entry-summary {
