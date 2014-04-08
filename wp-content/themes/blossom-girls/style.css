@@ -1129,6 +1129,31 @@ object {
     padding: 15px;
     padding-top: 25px;
 }
+#new-noteworthy-wrapper>div, #popular-discussions-wrapper>div {
+    background-color: #FFF9DF;
+    background: rgb(255, 249, 223); /* The Fallback */
+    background: rgba(255, 249, 223, 0.4);
+    margin: 15px 0;
+    padding: 7px 5px;
+    overflow: hidden;
+}
+
+/* New & Noteworthy only */
+#new-noteworthy-wrapper {
+    background-image: url('./images/Homepage-FINAL-IMAGES/box_graphic_new_noteworthy.png');
+}
+#new-noteworthy-wrapper #news-source {
+    font-family: Raleway, Arial, sans-serif;
+}
+#new-noteworthy-wrapper #news-title {
+    font-weight: bold;
+    color: #303030;
+}
+#new-noteworthy-wrapper #news-clip {
+    color: #303030;
+    display: inline;
+}
+
 /* Gettin Connected Widget */
 #gettin-connected-wrapper {
     background-image: url('./images/box_graphic_gettin_connected.png');
