@@ -1165,6 +1165,26 @@ object {
     margin-bottom: 12px;
 }
 
+/* Combo Link Widget */
+#combo-link-wrapper h1 {
+    width: 457px;
+}
+#combo-link-wrapper #teen-handbook-wrapper {
+    float: right;
+}
+#combo-link-wrapper #girl-of-week-wrapper {
+    float: left;
+}
+#combo-link-wrapper #teen-handbook-wrapper img {
+    height: 310px;
+    width: auto;
+    padding-bottom: 30px;
+}
+#combo-link-wrapper #girl-of-week-wrapper img {
+    height: 267px;
+    width: auto;
+}
+
 /* Girl of the Week Widget */
 #girl-of-week-wrapper h1 {
     text-align: center;
