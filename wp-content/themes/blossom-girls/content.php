@@ -13,11 +13,15 @@
         </div><!-- .entry-meta -->
         <?php endif; ?>
 
-        <?php if ( has_post_thumbnail() ) {
-            the_post_thumbnail('full');
-        } ?>
-
-        <h1 class="entry-title section-header"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'BlossomGirls' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+        <?php // Both featured image and title will link to the article ?>
+        <h1 class="entry-title section-header">
+            <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'BlossomGirls' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
+                <?php if ( has_post_thumbnail() ) {
+                    the_post_thumbnail('full');
+                } ?>
+                <?php the_title(); ?>
+            </a>
+        </h1>
     </header><!-- .entry-header -->
  
     <?php if ( is_search() ) : // Only display Excerpts for Search ?>
