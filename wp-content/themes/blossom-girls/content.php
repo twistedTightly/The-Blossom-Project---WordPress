@@ -28,6 +28,11 @@
     <div class="entry-summary">
         <?php the_excerpt(); ?>
     </div><!-- .entry-summary -->
+
+    <?php elseif ( has_category( 'Girl-Talk' ) ) : ?>
+       <?php the_excerpt(); ?>
+       <?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'BlossomGirls' ), 'after' => '</div>' ) ); ?>
+
     <?php else : ?>
     <div class="entry-content">
         <?php the_content( __( '<br>READ MORE <span class="meta-nav">&gt;&gt;&gt;</span>', 'BlossomGirls' ) ); ?>
