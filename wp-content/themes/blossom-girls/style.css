@@ -583,6 +583,10 @@ footer.entry-meta {
     clear: both;
     margin: 0 0 1.5em;
 }
+a.more-link {
+    display: block;
+    margin-bottom: 60px;
+}
 .entry-title {
     margin: auto;
     max-width: 780px;
