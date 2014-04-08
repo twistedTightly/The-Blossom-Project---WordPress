@@ -636,8 +636,8 @@ img.coming-soon {
     padding-top: 50px;
     padding-bottom: 200px;
 }
-.home#primary {
-    display: none; /* Hide the content of the page on the front page */
+.video_wrap.html5video {
+    margin-top: -22px;
 }
 .inset {
     padding-left: 40px;
