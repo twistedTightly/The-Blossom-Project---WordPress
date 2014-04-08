@@ -1017,6 +1017,23 @@ object {
     font-weight: bold;
     margin-top: 80px;
 }
+.comment-form-comment label {
+    color: #FFF9DF;
+}
+.comment-form-comment textarea {
+    min-height: 140px;
+    margin-top: 5px;
+}
+.logged-in-as {
+    font-weight: normal;
+    font-size: 90%;
+}
+.form-submit {
+    padding-bottom: 40px;
+}
+.says {
+    display: none;
+}
 .comments-area input#submit {
     background-color: #CD1E52;
     color: #FFF9DF;
@@ -1035,6 +1052,23 @@ object {
 }
 .comments-area .vcard {
     vertical-align: top;
+}
+.comments-area ol {
+    list-style: none;
+    margin: 0;
+}
+.comments-area .comment-author, .comments-area .comment-meta {
+    display: inline;
+}
+.comments-area .comment-meta time {
+    color: #FFF9DF;
+}
+.commentlist li {
+    margin-bottom: 40px;
+}
+.comment-content {
+    font-weight: normal;
+    margin-top: 15px;
 }
  
 /* =Widgets
