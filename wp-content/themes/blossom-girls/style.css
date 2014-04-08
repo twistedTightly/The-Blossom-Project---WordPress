@@ -1102,6 +1102,33 @@ object {
     color: #fff9df;
 }
 
+/* Popular Discussions */
+#popular-discussions-wrapper {
+    background-image: url('./images/Girl-Talk-FINAL-IMAGES/box_graphic_popular_discussions.png');
+    font-family: Raleway, Arial, sans-serif;
+    overflow: hidden; /* Puts background around floated divs */
+}
+#popular-discussions-wrapper p {
+    font-size: 90%;
+    margin-bottom: 0;
+}
+#view-comment-counts {
+    float: right;
+}
+#discussion {
+    float: left;
+}
+#discussion-title {
+    font-weight: bold;
+}
+
+/* New & Noteworthy and Popular Discussions Widgets */
+#new-noteworthy-wrapper, #popular-discussions-wrapper {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15px;
+    padding-top: 25px;
+}
 /* Gettin Connected Widget */
 #gettin-connected-wrapper {
     background-image: url('./images/box_graphic_gettin_connected.png');
