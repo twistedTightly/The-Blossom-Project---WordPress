@@ -671,6 +671,31 @@ article#post-4 .entry-title, article#post-4 #team-header {
 article#post-4 #team-header {
     padding-top: 15%;
 }
+#contact-us {
+    margin-top: 180px;
+}
+#contact-us form h1 {
+    margin-top: 160px;
+}
+#contact-us form {
+    width: 780px;
+}
+#contact-us form div>div {
+    text-transform: uppercase;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+#contact-us form input, #contact-us form textarea {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#contact-us form textarea {
+    height: 150px;
+}
+#contact-us form .left-align-labels {
+    width: 250px;
+    float: left;
+}
 
 /* Custom Gallery */
 
@@ -755,6 +780,24 @@ article#post-4 #team-header {
 
 .connect-signup input, .connect-signup textarea {
     margin: 15px;
+    padding: 5px;
+}
+input#email {
+    width: 350px;
+}
+input#name {
+    width: 200px;
+}
+input#age {
+    width: 50px;
+}
+input#country {
+    width: 280px;
+}
+form textarea {
+    display: inline;
+    width: 487px;
+    height: 90px;
 }
 
 /* =Get Informed
